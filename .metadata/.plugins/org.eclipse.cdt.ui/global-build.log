@@ -1,0 +1,16 @@
+09:14:25 **** Incremental Build of configuration Debug for project tp2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:43:6: warning: variable 'val1' set but not used [-Wunused-but-set-variable]
+  int val1,val2;
+      ^
+..\main.cpp:43:11: warning: variable 'val2' set but not used [-Wunused-but-set-variable]
+  int val1,val2;
+           ^
+..\main.cpp: In function 'void Maquina(Instrucao*, int, int&, int&, int&, int&, int&, int&, int, int, int, Linha*, Linha*, Linha*, int**)':
+..\main.cpp:381:11: warning: variable 'envia' set but not used [-Wunused-but-set-variable]
+  int soma,envia,subtracao;
+           ^
+g++ -o tp2.exe main.o 
+Info: Nothing to build for tp2
